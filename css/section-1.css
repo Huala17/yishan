@@ -1,0 +1,192 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+.section-1{
+    font-family: "Noto Sans TC", sans-serif;
+    position: relative;
+    background-color: #fffbdf;
+    color: black;
+background-image: url("https://www.transparenttextures.com/patterns/vintage-speckles.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.title-s-2{
+    margin-top: 400px;
+    text-align: center;
+    letter-spacing: 1vw;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.title-l-2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 600;
+    letter-spacing: 1vw;
+}
+
+.text-2{
+    margin-top: 21vw;
+    margin-bottom: 26vw;
+    margin-left: auto;margin-right: auto;
+    width: 45vw;
+    font-size: 1.8vw;
+    font-weight: 300;
+    position: relative;z-index: 9;
+    letter-spacing: 0.2vw;
+}
+
+.image-2-1{
+    width: 22vw;
+    height: 16vw;
+    position: absolute;top: -45vw; left: -24vw; z-index: 10;
+    background-image: url(../image/01.jpg);
+    background-size: cover;
+}
+
+.image-2-2{
+    width: 19vw;
+    height: 26vw;
+    position: absolute;top: -30vw; left: 53vw; z-index: 10;
+    background-image: url(../image/02.jpg);
+    background-size: cover;
+}
+
+.image-2-3{
+    width: 32vw;
+    height: 16vw;
+    position: absolute;top: -15.5vw; left: -27.5vw; z-index: 10;
+    background-image: url(../image/06.jpg);
+    background-size: cover;
+}
+
+.image-2-4{
+    width: 18.5vw;
+    height: 13.5vw;
+    position: absolute;top: 7vw; left: 53.5vw; z-index: 10;
+    background-image: url(../image/15.jpg);
+    background-size: cover;
+}
+
+.image-2-5{
+    width: 17vw;
+    height: 23vw;
+    position: absolute;top: 18vw; left: -26vw; z-index: 10;
+    background-image: url(../image/18.jpg);
+    background-size: cover;
+}
+
+.image-2-6{
+    width: 26.5vw;
+    height: 16vw;
+    position: absolute;top: 38.5vw; left: 40vw; z-index: 10;
+    background-image: url(../image/07.jpg);
+    background-size: cover;
+}
+
+@media(max-width:1400px){
+
+    .image-2-1{
+        top: -45vw;
+    }
+}
+
+@media(max-width:1200px){
+
+    .image-2-1{
+        top: -63vw;
+    }
+}
+
+@media(max-width:1050px){
+    .title-s-2{
+        margin-top: 80vw;
+        text-align: center;
+        letter-spacing: 1vw;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .text-2{
+        font-size: 2.5vw;
+    }
+    
+}
+
+@media(max-width:800px){
+    .text-2{
+        width: 50vw;
+        font-size: 3vw;
+    }
+}
+
+@media(max-width:700px){
+    .text-2{
+        width: 70vw;
+        font-size: 3vw;
+    }
+    .image-2-1{
+        top: -56vw;left: -10vw;
+        width: 30vw;height: 22vw;
+    }
+    .image-2-2{
+        display: none;
+    }
+    .image-2-3{
+        display: none;
+    }
+    .image-2-4{
+        display: none;
+    }
+    .image-2-5{
+        display: none;
+    }
+    .image-2-6{
+        left: 50vw;
+        width: 30vw;height: 20vw;
+    }
+}
+
+@media(max-width:600px){
+    .title-l-2{
+        font-size: 40px;
+    }
+    .image-2-1{
+        top: -58vw;
+    }
+}
+
+@media(max-width:500px){
+    .image-2-1{
+        top: -67vw;left: -2vw;
+    }
+    
+    .image-2-6{
+        top: 120vw;
+    }
+
+    .text-2{
+        width: 90%;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+@media(max-width:400px){
+    .image-2-1{
+        top: -62vw;left: -2vw;
+    }
+    
+    .image-2-6{
+        top: 125vw;
+        width: 36vw;height: 24vw;
+    }
+
+}
+
+@media(max-width:350px){
+    .image-2-6{
+        top: 180vw;
+        width: 36vw;height: 24vw;
+    }
+}

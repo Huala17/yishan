@@ -1,0 +1,86 @@
+footer{
+    background-color: rgb(0, 120, 30);
+    padding: 30px 100px 30px 100px;
+}
+.footer_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo_footer{
+    width: 170px;
+    height: 170px;
+    background-image: url(../icon/Group\ 2@3x.png);
+    background-size: cover;
+}
+.textBox_footer{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.itemBox_footer{
+    display: flex;
+    align-items: center;
+    margin: 15px 0 15px 0;
+}
+.icon_footer{
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    margin-right: 20px;
+}
+.mapMarker_footer{
+    width: 15px;
+    margin-left: 3px;
+    margin-right: 23px;
+    background-image: url(../icon/Icon\ awesome-map-marker-alt@3x.png);
+}
+.map_footer{
+    background-image: url(../icon/Icon\ awesome-map-signs@3x.png);
+}
+.phone_footer{
+    background-image: url(../icon/Icon\ awesome-phone@3x.png);
+}
+.time_footer{
+    background-image: url(../icon/Icon\ material-access-time@3x.png);
+}
+.copyright{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 45px;
+    margin-top: 40px;
+}
+
+@media(max-width:850px){
+    footer{
+        padding: 30px 50px 30px 50px;
+    }
+    .footer_box{
+        flex-wrap: wrap;
+    }
+    .textBox_footer{
+        margin:0px 100px;
+    }
+    .copyright{
+        text-align: center;
+        margin-left: 0px;
+    }
+}
+@media(max-width:700px){ 
+    .textBox_footer{
+        margin:0px 50px;
+    }
+}
+@media(max-width:600px){
+    footer{
+        padding: 30px 0px 30px 0px;
+    }
+}
+@media(max-width:500px){
+    .textBox_footer{
+        font-size: 16px;
+    }
+}
+
+
+
